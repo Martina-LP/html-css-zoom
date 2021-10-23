@@ -97,6 +97,7 @@ footer {
 .item.share .share-logo {
   color: #4bc800;
 }
+/* End footer icon */
 /* Footer middle */
 .footer-middle {
   width: 85%;
@@ -111,11 +112,10 @@ footer {
 .footer-right .item.end {
   color: red;
 }
-
+/* End footer right */
 .footer-left, .footer-middle, .footer-right {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* End footer right */
 /* End footer */
