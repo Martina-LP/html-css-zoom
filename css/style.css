@@ -7,7 +7,7 @@
 body {
   font-family: 'Lato', sans-serif;
 }
-
+/* Header */
 header {
   display: flex;
   width: 100%;
@@ -25,3 +25,49 @@ header > div {
   padding: 4px 8px;
   border-radius: 5px;
 }
+/* End header */
+/* Main */
+main {
+  height: calc(100vh - 160px);
+  background-color: black;
+  overflow-y: auto;
+}
+
+.main-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+/* User */
+.user {
+  position: relative;
+  width: 220px;
+  height: 160px;
+  background-image: url('../img/image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 6px 3px;
+}
+
+.user-information {
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  background-color: #4a4a4a;
+  opacity: 0.6;
+  padding: 2px 4px;
+}
+
+.user-information > .user-mute, .user-name {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+}
+/* End user */
+/* End main */
