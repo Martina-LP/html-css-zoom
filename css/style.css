@@ -11,7 +11,7 @@ body {
 header {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: black;
   justify-content: flex-end;
   align-items: flex-start;
@@ -34,11 +34,11 @@ main {
 }
 
 .main-container {
+  display: flex;
   width: 90%;
   margin: auto;
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 img {
@@ -71,3 +71,51 @@ img {
 }
 /* End user */
 /* End main */
+/* Footer */
+footer {
+  display: flex;
+  height: 80px;
+  background-color: #222222;
+}
+/* Footer left */
+.footer-left {
+  width: 10%;
+}
+/* End footer left */
+/* Footer icon */
+.item {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin: 8px;
+}
+
+.item i {
+  margin-bottom: 4px;
+}
+
+.item.share .share-logo {
+  color: #4bc800;
+}
+/* Footer middle */
+.footer-middle {
+  width: 85%;
+}
+/* End footer middle */
+/* Footer right */
+.footer-right {
+  width: 5%;
+  background-color: #4a4a4a;
+}
+
+.footer-right .item.end {
+  color: red;
+}
+
+.footer-left, .footer-middle, .footer-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End footer right */
+/* End footer */
